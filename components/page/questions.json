@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_questions",
+  "info": {
+    "name": "questions",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_sections_modules",
+  "info": {
+    "name": "sectionsModules",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.modules",
+      "required": true,
+      "min": 2
+    }
+  }
+}

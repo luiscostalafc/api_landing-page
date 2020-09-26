@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_pricing_boxes",
+  "info": {
+    "name": "pricingBox",
+    "icon": "money-bill-wave"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "float",
+      "required": true
+    },
+    "numberInstallments": {
+      "type": "float"
+    },
+    "priceInstallment": {
+      "type": "float"
+    },
+    "benefits": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    }
+  }
+}
