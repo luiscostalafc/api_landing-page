@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     providerOptions: {
       accessKeyId: env("AWS_ACCESS_KEY_ID"),
       secretAccessKey: env("AWS_ACCESS_SECRET"),
-      region: "América do Sul (São Paulo)",
+      region: "aws-region",
       params: {
         Bucket: "landing-page-test-assets",
       }
